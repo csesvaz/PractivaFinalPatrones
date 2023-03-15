@@ -1,16 +1,16 @@
 package Menus;
 
-import Modelo.Balneario;
+import Modelo.GestionEnvio;
 
 public abstract class Menu {
-    private Balneario b;
+    private GestionEnvio ge;
     
-    public Menu(Balneario b){
-        this.b=b;
+    public Menu(GestionEnvio ge){
+        this.ge=ge;
     }
     
-    public Balneario getBalneario(){
-        return b;
+    public GestionEnvio getGestionEnvio(){
+        return ge;
     }
     public void  ejecutar(){
         String respuesta="";

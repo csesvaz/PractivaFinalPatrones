@@ -1,8 +1,9 @@
 package Modelo;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
-public abstract class Envio{
+public abstract class Envio implements Serializable{
     private String identificador;
     private double coste;
     private LocalDate fecha;
